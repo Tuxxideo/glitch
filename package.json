@@ -1,0 +1,39 @@
+ {
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "noblox-private": "^4.2.4",
+    "discord.js": "^12.5.3",
+    "request": "^2.88.0",
+    "body-parser": "^1.19.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "enmap": "^5.2.4",
+    "noblox.js": "^4.3.0",
+    "snekfetch": "^4.0.4",
+    "async-redis": "^2.0.0",
+    "redis": "^3.1.2",
+    "noblox": "^4.8.5"
+  },
+  "engines": {
+    "node": "^12"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
